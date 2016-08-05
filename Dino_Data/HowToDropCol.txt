@@ -1,0 +1,22 @@
+how to drop a column .. when it doesn't cooperate
+.show
+look at your headers and mode
+.headers on
+.mode csv
+
+.once filename.csv
+
+SELECT * FROM tablename;
+
+open the table in a spreadsheet
+highlight the column
+delete it.
+
+export as a .csv
+
+go back to sqlite3 terminal
+DROP TABLE tablename;
+
+Use python and sqlite... to 
+1 - CREATE TABLE tablename..... columns... datataypes
+2 - read from the csv and INSERT VALUES into the table
